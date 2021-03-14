@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { View, Text, ScrollView } from 'react-native';
 import { Card } from 'react-native-elements';
+import { CAMPSITES } from '../shared/campsites';
+import { PROMOTIONS } from '../shared/promotions';
+import { PARTNERS } from '../shared/partners';
 import { connect } from 'react-redux';
 import { baseUrl } from '../shared/baseUrl';
 import Loading from './LoadingComponent';
@@ -28,11 +31,10 @@ function RenderItem(props) {
     }
     if (item) {
         return (
-            <Card 
+            <Card
                 featuredTitle={item.name}
-                image={{uri: baseUrl + item.name}}>
-                <Text
-                    style={{margin: 10}}>
+                image={{uri: baseUrl + item.image}}>
+                <Text style={{margin: 10}}>
                     {item.description}
                 </Text>
             </Card>
@@ -50,7 +52,7 @@ class Home extends Component {
     render() {
         return (
             <ScrollView>
-                <RenderItem
+                 <RenderItem
                     item={this.props.campsites.campsites.filter(campsite => campsite.featured)[0]}
                     isLoading={this.props.campsites.isLoading}
                     errMess={this.props.campsites.errMess}
@@ -69,6 +71,5 @@ class Home extends Component {
         );
     }
 }
-
 
 export default connect(mapStateToProps)(Home);
