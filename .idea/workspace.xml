@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4507c08a-21df-4e1e-bb4b-dc1c4f6f7ac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redux/ActionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/ActionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/baseUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/shared/baseUrl.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +41,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1261" y="681" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616102586246">
-      <screen x="0" y="25" width="2560" height="1360" />
+    <state x="1261" y="681" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616118936305">
+      <screen x="0" y="25" width="2560" height="1359" />
     </state>
+    <state x="1261" y="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1359@0.25.2560.1359" timestamp="1616118936305" />
     <state x="1261" y="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1360@0.25.2560.1360" timestamp="1616102586246" />
-    <state x="1733" y="1343" width="827" height="499" key="AVDManager" timestamp="1616103210380">
-      <screen x="0" y="25" width="2560" height="1360" />
+    <state x="1387" y="1149" width="1203" height="499" key="AVDManager" timestamp="1616118990920">
+      <screen x="0" y="25" width="2560" height="1359" />
     </state>
+    <state x="1387" y="1149" width="1203" height="499" key="AVDManager/0.25.2560.1359@0.25.2560.1359" timestamp="1616118990920" />
     <state x="1733" y="1343" width="827" height="499" key="AVDManager/0.25.2560.1360@0.25.2560.1360" timestamp="1616103210380" />
     <state x="1733" y="1162" width="827" height="501" key="AVDManager/0.25.2560.1368@0.25.2560.1368" timestamp="1616039678691" />
+    <state x="1644" y="726" key="AndroidProcessChooserDialog" timestamp="1616118952921">
+      <screen x="0" y="25" width="2560" height="1359" />
+    </state>
+    <state x="1644" y="726" key="AndroidProcessChooserDialog/0.25.2560.1359@0.25.2560.1359" timestamp="1616118952921" />
     <state x="1403" y="730" key="IDE.errors.dialog" timestamp="1616102623321">
       <screen x="0" y="25" width="2560" height="1360" />
     </state>
