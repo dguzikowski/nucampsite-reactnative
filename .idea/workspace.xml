@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4507c08a-21df-4e1e-bb4b-dc1c4f6f7ac7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/LoginComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/LoginComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -48,11 +48,12 @@
     </state>
     <state x="1261" y="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1359@0.25.2560.1359" timestamp="1616118936305" />
     <state x="1261" y="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1360@0.25.2560.1360" timestamp="1616102586246" />
-    <state x="1357" y="1047" width="1203" height="501" key="AVDManager" timestamp="1616552337338">
-      <screen x="0" y="25" width="2560" height="1364" />
+    <state x="1357" y="1143" width="1203" height="501" key="AVDManager" timestamp="1616631689300">
+      <screen x="0" y="25" width="2560" height="1363" />
     </state>
     <state x="1387" y="1149" width="1203" height="499" key="AVDManager/0.25.2560.1359@0.25.2560.1359" timestamp="1616118990920" />
     <state x="1733" y="1343" width="827" height="499" key="AVDManager/0.25.2560.1360@0.25.2560.1360" timestamp="1616103210380" />
+    <state x="1357" y="1143" width="1203" height="501" key="AVDManager/0.25.2560.1363@0.25.2560.1363" timestamp="1616631689300" />
     <state x="1357" y="1047" width="1203" height="501" key="AVDManager/0.25.2560.1364@0.25.2560.1364" timestamp="1616552337338" />
     <state x="1733" y="1162" width="827" height="501" key="AVDManager/0.25.2560.1368@0.25.2560.1368" timestamp="1616039678691" />
     <state x="1644" y="726" key="AndroidProcessChooserDialog" timestamp="1616118952921">
