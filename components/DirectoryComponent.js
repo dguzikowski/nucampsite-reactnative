@@ -24,11 +24,11 @@ class Directory extends Component {
             return (
                 <Animatable.View animation='fadeInRightBig' duration={2000}>
                     <Tile
-                        title={item.name}
-                        caption={item.description}
-                        featured
-                        onPress={() => navigate('CampsiteInfo', { campsiteId: item.id })}
-                        imageSrc={{uri: baseUrl + item.image}}
+                    title={item.name}
+                    caption={item.description}
+                    featured
+                    onPress={() => navigate('CampsiteInfo', { campsiteId: item.id })}
+                    imageSrc={{uri: baseUrl + item.image}}
                     />
                 </Animatable.View>
             );

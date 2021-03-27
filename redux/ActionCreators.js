@@ -21,7 +21,7 @@ export const fetchComments = () => dispatch => {
         .catch(error => dispatch(commentsFailed(error.message)));
 };
 
-
+//comments
 
 export const commentsFailed = errMess => ({
     type: ActionTypes.COMMENTS_FAILED,
@@ -54,7 +54,7 @@ export const addComment = comment => ({
     payload: comment
 });
 
-
+//campsites
 
 export const fetchCampsites = () => dispatch => {
 
@@ -93,6 +93,8 @@ export const addCampsites = campsites => ({
     payload: campsites
 });
 
+//promotions
+
 export const fetchPromotions = () => dispatch => {
     
     dispatch(promotionsLoading());
@@ -130,6 +132,7 @@ export const addPromotions = promotions => ({
     payload: promotions
 });
 
+//partners
 
 export const fetchPartners = () => dispatch => {
     
@@ -168,6 +171,8 @@ export const addPartners = partners => ({
     payload: partners
 });
 
+//favorite
+
 export const postFavorite = campsiteId => dispatch => {
     setTimeout(() => {
         dispatch(addFavorite(campsiteId));
@@ -182,4 +187,4 @@ export const addFavorite = campsiteId => ({
 export const deleteFavorite = campsiteId => ({
     type: ActionTypes.DELETE_FAVORITE,
     payload: campsiteId
-});
+}); 

@@ -12,9 +12,9 @@ class Contact extends Component {
 
     sendMail() {
       MailComposer.composeAsync({
-        recipients: ['campsites@nucamp.co'],
-        subject: 'Inquiry',
-        body: 'To whom it may concern:'
+          recipients: ['campsites@nucamp.co'],
+          subject: 'Inquiry',
+          body: 'To whom it may concern:'
       })
     }
 
@@ -22,7 +22,7 @@ class Contact extends Component {
       return (
         <ScrollView>
           <Animatable.View animation='fadeInDown' duration={2000} delay={1000}>
-            <Card 
+           <Card
             title='Contact Information'
             wrapperStyle={{margin: 20}} >
                 <Text>1 Nucamp Way</Text>
@@ -38,9 +38,9 @@ class Contact extends Component {
                     type='font-awesome'
                     color='#fff'
                     iconStyle={{marginRight: 10}}
-                    />}
-                    onPress={() => this.sendMail()}
-                  />
+                  />}
+                  onPress={() => this.sendMail()}
+                />
             </Card>
           </Animatable.View>
         </ScrollView>

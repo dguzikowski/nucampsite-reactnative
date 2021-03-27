@@ -3,8 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="4507c08a-21df-4e1e-bb4b-dc1c4f6f7ac7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CampsiteInfoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/CampsiteInfoComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ContactComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ContactComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DirectoryComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DirectoryComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FavoritesComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/FavoritesComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/HomeComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/HomeComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LoadingComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/LoadingComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LoginComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/LoginComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/MainComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/MainComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ReservationComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ReservationComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/ActionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/ActionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/ActionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/ActionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/favorites.js" beforeDir="false" afterPath="$PROJECT_DIR$/redux/favorites.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/baseUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/shared/baseUrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +65,13 @@
     </state>
     <state x="1261" y="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1359@0.25.2560.1359" timestamp="1616118936305" />
     <state x="1261" y="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1360@0.25.2560.1360" timestamp="1616102586246" />
-    <state x="1357" y="1143" width="1203" height="501" key="AVDManager" timestamp="1616631689300">
-      <screen x="0" y="25" width="2560" height="1363" />
+    <state x="1295" y="1027" width="1203" height="499" key="AVDManager" timestamp="1616869749225">
+      <screen x="0" y="25" width="2560" height="1359" />
     </state>
-    <state x="1387" y="1149" width="1203" height="499" key="AVDManager/0.25.2560.1359@0.25.2560.1359" timestamp="1616118990920" />
+    <state x="1295" y="1027" width="1203" height="499" key="AVDManager/0.25.2560.1359@0.25.2560.1359" timestamp="1616869749225" />
     <state x="1733" y="1343" width="827" height="499" key="AVDManager/0.25.2560.1360@0.25.2560.1360" timestamp="1616103210380" />
-    <state x="1357" y="1143" width="1203" height="501" key="AVDManager/0.25.2560.1363@0.25.2560.1363" timestamp="1616631689300" />
-    <state x="1357" y="1047" width="1203" height="501" key="AVDManager/0.25.2560.1364@0.25.2560.1364" timestamp="1616552337338" />
+    <state x="1357" y="1116" width="1203" height="501" key="AVDManager/0.25.2560.1363@0.25.2560.1363" timestamp="1616636474358" />
+    <state x="1389" y="1014" width="1203" height="501" key="AVDManager/0.25.2560.1364@0.25.2560.1364" timestamp="1616858926139" />
     <state x="1733" y="1162" width="827" height="501" key="AVDManager/0.25.2560.1368@0.25.2560.1368" timestamp="1616039678691" />
     <state x="1644" y="726" key="AndroidProcessChooserDialog" timestamp="1616118952921">
       <screen x="0" y="25" width="2560" height="1359" />
@@ -68,5 +85,9 @@
       <screen x="0" y="25" width="2560" height="1360" />
     </state>
     <state x="1486" y="607" key="RollbackChangesDialog/0.25.2560.1360@0.25.2560.1360" timestamp="1616102577475" />
+    <state x="1563" y="202" key="SettingsEditor" timestamp="1616869816884">
+      <screen x="0" y="25" width="2560" height="1359" />
+    </state>
+    <state x="1563" y="202" key="SettingsEditor/0.25.2560.1359@0.25.2560.1359" timestamp="1616869816884" />
   </component>
 </project>

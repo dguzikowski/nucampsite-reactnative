@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Animated, ScrollView } from 'react-native';
+import { View, Text, Animated } from 'react-native';
 import { Card } from 'react-native-elements';
 import { CAMPSITES } from '../shared/campsites';
 import { PROMOTIONS } from '../shared/promotions';
@@ -56,7 +56,7 @@ class Home extends Component {
         Animated.timing(
             this.state.scaleValue,
             {
-                toValue: 1, 
+                toValue: 1,
                 duration: 1500,
                 useNativeDriver: true
             }
@@ -74,7 +74,7 @@ class Home extends Component {
     render() {
         return (
             <Animated.ScrollView style={{transform: [{scale: this.state.scaleValue}]}}>
-                 <RenderItem
+                <RenderItem
                     item={this.props.campsites.campsites.filter(campsite => campsite.featured)[0]}
                     isLoading={this.props.campsites.isLoading}
                     errMess={this.props.campsites.errMess}
